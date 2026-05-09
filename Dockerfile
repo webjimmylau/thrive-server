@@ -11,7 +11,7 @@ COPY . /thrive
 RUN pip3 install -r requirements.txt -i https://mirrors.bfsu.edu.cn/pypi/web/simple/
 
 # 暴露容器端口号
-EXPOSE 5000
+EXPOSE 9003
 
 # 在容器创建成功后做的事情，相当于执行：python3 app.py
 CMD ["python3", "app.py"]

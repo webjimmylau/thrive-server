@@ -3,7 +3,7 @@ class Config(object):
     # 是否开启调试模式
     DEBUG = True
     # 项目端口号
-    PORT = 5000
+    PORT = 9003
     # 请求路径前缀
     URL_PREFIX = "/api"
     # 上传的图片位置

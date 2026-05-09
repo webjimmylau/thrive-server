@@ -13,8 +13,8 @@ class SwiperBody(BaseModel):
     id: Optional[int]
     title: str = Field(default="大前端新趋势", description="轮播图标题")
     description: str = Field(default="轮播图摘要", description="轮播图摘要")
-    image: str = Field(default="http://127.0.0.1:5000/1.jpg", description="轮播图")
-    url: str = Field(default="http://127.0.0.1:5000", description="轮播图跳转地址")
+    image: str = Field(default="http://127.0.0.1:9003/1.jpg", description="轮播图")
+    url: str = Field(default="http://127.0.0.1:9003", description="轮播图跳转地址")
 
 
 class SwiperBodyId(BaseModel):

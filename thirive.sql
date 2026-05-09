@@ -72,7 +72,7 @@ CREATE TABLE `cate` (
 
 LOCK TABLES `cate` WRITE;
 /*!40000 ALTER TABLE `cate` DISABLE KEYS */;
-INSERT INTO `cate` VALUES (1,'开发笔记','🎉','/','kfbj',0),(2,'生活随笔','✍️','/','shsb',0),(4,'大前端','🎉','http://127.0.0.1:5000','dqd',0),(5,'前端','?','/','qd',4),(7,'Java','?','/','java',4),(9,'Python','?','/','python',4);
+INSERT INTO `cate` VALUES (1,'开发笔记','🎉','/','kfbj',0),(2,'生活随笔','✍️','/','shsb',0),(4,'大前端','🎉','http://127.0.0.1:9003','dqd',0),(5,'前端','?','/','qd',4),(7,'Java','?','/','java',4),(9,'Python','?','/','python',4);
 /*!40000 ALTER TABLE `cate` ENABLE KEYS */;
 UNLOCK TABLES;
 

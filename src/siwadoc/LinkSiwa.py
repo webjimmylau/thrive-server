@@ -14,8 +14,8 @@ class LinkBody(BaseModel):
     title: str = Field(default="YuYang", description="网站标题")
     description: str = Field(default="逐渐强大的全栈开发工程师", description="网站介绍")
     email: str = Field(default="3311118881@qq.com", description="网站邮箱")
-    image: str = Field(default="http://127.0.0.1:5000/1.jpg", description="网站图标")
-    url: str = Field(default="http://127.0.0.1:5000", description="网站跳转地址")
+    image: str = Field(default="http://127.0.0.1:9003/1.jpg", description="网站图标")
+    url: str = Field(default="http://127.0.0.1:9003", description="网站跳转地址")
     type: int = Field(default=1, description="网站类型的ID")
     createtime: datetime = Field(default=datetime.now(), description="网站加入时间")
 
